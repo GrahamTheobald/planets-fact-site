@@ -1,0 +1,11 @@
+.App {
+	font-family: 'Antonio', sans-serif;
+	background-color: var(--background);
+	color: var(--mainText);
+}
+
+main {
+	padding: 1.5rem;
+	max-width: 70rem;
+	margin: auto;
+}

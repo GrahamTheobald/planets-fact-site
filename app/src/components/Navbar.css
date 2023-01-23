@@ -1,0 +1,24 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 1.5rem;
+	border-bottom: 1px solid var(--borders);
+}
+
+.nav_links {
+	display: flex;
+	gap: 1.5rem;
+	font-family: 'spartan', sans-serif;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	list-style: none;
+}
+.nav_links:hover {
+	cursor: pointer;
+}
+
+.nav_menu-btn,
+.nab_menu-btn.open {
+	display: none;
+}
