@@ -6,7 +6,7 @@ export default function Tab({ tab, active, handler, number }) {
 	return (
 		<div onClick={() => handler(tab)} className={className}>
 			<p className='tab__number'>{number}</p>
-			<p>{tab}</p>
+			<p className='tab__title'>{tab}</p>
 		</div>
 	)
 }

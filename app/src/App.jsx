@@ -29,9 +29,7 @@ function App() {
 			<HandlerContext.Provider value={handlerContextValue}>
 				<Navbar data={data} />
 			</HandlerContext.Provider>
-			<main>
-				<Info planet={planet} />
-			</main>
+			<Info planet={planet} />
 		</div>
 	)
 }

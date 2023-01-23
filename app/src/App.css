@@ -2,10 +2,17 @@
 	font-family: 'Antonio', sans-serif;
 	background-color: var(--background);
 	color: var(--mainText);
+	min-height: 100vh;
 }
 
 main {
 	padding: 1.5rem;
 	max-width: 70rem;
 	margin: auto;
+}
+
+@media (max-width: 450px) {
+	main {
+		padding-top: 0;
+	}
 }
